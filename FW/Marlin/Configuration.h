@@ -27,9 +27,11 @@
 //Hexagon 1.75 + filament PLA :  31.31, 2.26, 108.24
 //E3D V6 + filament PLA : 31.61, 3.24, 77.03
 //E3D V6 vide : 30.15, 4.00, 56.81
-#define  DEFAULT_Kp 30.2
-#define  DEFAULT_Ki 2.14
-#define  DEFAULT_Kd 106.38
+
+// ORT: Hexagon 1.75 + filament PLA :  47.18, 2.25, 247.37
+#define  DEFAULT_Kp 47.18
+#define  DEFAULT_Ki 2.25
+#define  DEFAULT_Kd 247.37
 
 //PARAMETRES DE COURROIES
 //Il s'agit des pas/mm pour chaque axes dans l'ordre X, Y, Z et Extrudeurs.
