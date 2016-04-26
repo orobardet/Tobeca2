@@ -27,16 +27,16 @@
 //Hexagon 1.75 + filament PLA :  31.31, 2.26, 108.24
 //E3D V6 + filament PLA : 31.61, 3.24, 77.03
 //E3D V6 vide : 30.15, 4.00, 56.81
-#define  DEFAULT_Kp 30.2
-#define  DEFAULT_Ki 2.14
-#define  DEFAULT_Kd 106.38
+#define  DEFAULT_Kp 31.21
+#define  DEFAULT_Ki 1.46
+#define  DEFAULT_Kd 166.81
 
 //PARAMETRES DE COURROIES
 //Il s'agit des pas/mm pour chaque axes dans l'ordre X, Y, Z et Extrudeurs.
 //Choisir les valeurs adaptées à votre imprimante ci dessous.
-//{80, 80, 4000,139.75} pour courroies noires GT2 souples (goomme + Nylon) -> ARCHIVE, NE PAS UTILISER
+//{80, 80, 4000, 139.75} pour courroies noires GT2 souples (goomme + Nylon) -> ARCHIVE, NE PAS UTILISER
 //{67.5, 67.5, 4000,152} pour courroies HTD3M noires à partir du 01/10/2015
-#define DEFAULT_AXIS_STEPS_PER_UNIT   {67.5, 67.5, 4000,139.75}    
+#define DEFAULT_AXIS_STEPS_PER_UNIT   {67.5, 67.5, 4000, 139.75}    
 
 //Ecran optionnel
 //décommenter la ligne correspondante à votre écran et flasher la carte avec l'écran branché uniquement
@@ -340,9 +340,9 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 #define max_software_endstops true  // If true, axis won't move to coordinates greater than the defined lengths below.
 
 // Travel limits after homing
-#define X_MAX_POS 200
+#define X_MAX_POS 190
 #define X_MIN_POS 0
-#define Y_MAX_POS 200
+#define Y_MAX_POS 230
 #define Y_MIN_POS 0
 #define Z_MAX_POS 250
 #define Z_MIN_POS 0
